@@ -12,12 +12,14 @@ const Card = ( {name} ) => {
 
 const App = () =>{
   return (
-    <>
-    <h2>Functional Arrow Component</h2>
-    <Card name="Avengers" />
-    <Card name="Para" />
-    <Card name="Hi" />
-    </>
+    <div className = "Cardc">
+     <Card name="Avengers" />
+     <Card name="Para" />
+     <Card name="Hi" />
+    </div>
+    
+
+   
   
 );
 }
